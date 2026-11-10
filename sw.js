@@ -1,10 +1,10 @@
 /* Caderno de Campo Aegypius — funciona sem rede.
    A app (página, bibliotecas, fundo do mapa) fica guardada no telemóvel; as fotos já vistas também.
    Os dados vêm do Supabase e a cópia local é gerida pela própria app. */
-const VERSAO = 'aeg-v1';
-const APP = ['./', './index.html', './manifest.webmanifest', './js/config.js', './js/ligacao.js',
-  './vendor/supabase.js', './vendor/leaflet.js', './vendor/xlsx.full.min.js', './osm_fundo.webp',
-  './icons/icon-192.png', './icons/icon-512.png'];
+const VERSAO = 'aeg-v2';
+const APP = ['./', './index.html', './manifest.webmanifest', './config.js', './ligacao.js',
+  './supabase.js', './leaflet.js', './xlsx.full.min.js', './osm_fundo.webp',
+  './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSAO).then(c => c.addAll(APP)).then(() => self.skipWaiting()));
