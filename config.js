@@ -2,6 +2,6 @@
    A chave "anon" / "publishable" é pública por natureza: o que protege os dados são as regras do setup.sql.
    NUNCA colocar aqui a chave "service_role" / "secret". */
 window.AEG_CONFIG = {
-  url: 'COLAR-AQUI-O-PROJECT-URL',          // ex.: https://abcdefghijkl.supabase.co
-  anonKey: 'COLAR-AQUI-A-CHAVE-ANON-PUBLICA'
+  url: 'sb_publishable_Am4bXdDLLgRzWbpzqzvmag_dMxTXW9X',          // ex.: https://abcdefghijkl.supabase.co
+  anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ4Y3VjeGN3dWljZ3ZoaWRzY3drIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQzMTU4NTEsImV4cCI6MjEwOTg5MTg1MX0.KZQ2im_x3456enTpvS3RcVgHXxVuKwuKjX1fhJyjjnw'
 };
