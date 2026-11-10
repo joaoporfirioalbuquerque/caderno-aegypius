@@ -1,0 +1,16 @@
+{
+  "name": "Caderno de Campo Aegypius",
+  "short_name": "Aegypius",
+  "description": "Monitorização de ninhos de abutre-preto",
+  "lang": "pt-PT",
+  "start_url": "./index.html#registar",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#E8ECE7",
+  "theme_color": "#1D5A46",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
